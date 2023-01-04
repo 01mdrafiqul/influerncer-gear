@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins&display=swap');
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Bebas Neue', 'cursive';
+    font-family: 'Poppins', sans-serif;
+    margin: 95px 120px;
+}
+/* -------------------
+        Home Manu     
+    ------------------ */
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tittle {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #3A3A3A;
+}
+.nav-items ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+.nav-items a {
+    text-decoration: none;
+    margin-right: 34px;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.search {
+    width: 16px;
+    height:16px;
+    color: #3A3A3A;
+}
+.cart {
+    width: 16px;
+    height: 16px;
+    color:#3A3A3A;
+    margin-left: 34px;
+}
